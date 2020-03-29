@@ -1,0 +1,12 @@
+version: '2'
+services:
+  ui:
+    build: ./covid
+    ports:
+      - '80:80'
+    depends_on:
+      - api
+  api:
+    build: ./api
+    ports:
+      - '3001:3001'
