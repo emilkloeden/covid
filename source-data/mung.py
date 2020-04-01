@@ -66,9 +66,9 @@ def parse_for_daily_data(observations):
         data["daysSincePreviousObservation"] = days_since_previous_observation
         data["newCases"] = daily_cases
         data["cumulativeCases"] = total_cases
-        data["growthRate"] = growth_rate
+        # data["growthRate"] = growth_rate
         data["growthFactor"] = growth_factor
-        data["doublingRate"] = doubling_rate
+        # data["doublingRate"] = doubling_rate
         results.append(data)
 
         previous_observation = data
@@ -176,15 +176,19 @@ def main():
     # Start processing
     logging.info("Starting processing...")
     observations = load_sa_data()
+    latest_observation = observations[-1]
+    dt = datetime.datetime.strptime(f"{latest_observation['Date']} {latest_observation['Time']}", "%d/%m/%Y %H:%M")
+    reported_at = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     results = parse_for_daily_data(observations)
     index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(results)
-    results = add_additional_calculations_after_100_cases(
-        results, index_of_first_day_above_100_cases
-    )
+    # results = add_additional_calculations_after_100_cases(
+    #     results, index_of_first_day_above_100_cases
+    # )
     for result in results:
         del result["dateObj"]
     results = {
         "observations": results,
+        "reportedAt": reported_at,
         "firstDayAbove100Cases": results[index_of_first_day_above_100_cases]["date"],
     }
     # pprint(results)

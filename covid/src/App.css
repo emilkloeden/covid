@@ -1,21 +1,12 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +15,68 @@
   color: white;
 }
 
+.App h1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+header > h2 {
+  margin-top: 0em;
+  color: firebrick;
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.chart {
+  min-width: 400px;
+  flex-grow: initial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin-top: 2em;
+}
+
+td {
+  min-width: 20em;
+}
+
+svg {
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+.state-outline {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 3s linear forwards;
+}
+
+@keyframes dash {
   to {
-    transform: rotate(360deg);
+    stroke-dashoffset: 0;
   }
+}
+
+.spinner {
+  width: 100%;
+  margin: 0 auto;
 }
