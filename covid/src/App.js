@@ -6,7 +6,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
-  const [data, loading] = useFetch("http://localhost:3001/");
+  const [data, loading] = useFetch("http://covid-19-in-sa.com:3001/");
 
   return (
     <div className="App">
