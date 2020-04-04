@@ -7,12 +7,13 @@ import shutil
 import logging
 import datetime
 
+API_PATH = "/root/covid/api"
+SOURCE_DATA_PATH = "/root/covid/source-data"
+
 
 def load_sa_data():
     """Load data from source file return data for SA only."""
-    if not os.getcwd().endswith("source-data"):
-        os.chdir(f"{os.getcwd()}/source-data")
-    with open(f"{os.getcwd()}/guardian.json", "r") as f:
+    with open(f"{SOURCE_DATA_PATH}/guardian.json", "r") as f:
         data = json.load(f)
 
     updates = data["sheets"]["updates"]
@@ -142,20 +143,17 @@ def add_additional_calculations_after_100_cases(observations, index):
 def download_json_file():
     """Redownload source data"""
     GUARDIAN_DATASET_URI = "https://interactive.guim.co.uk/docsdata/1q5gdePANXci8enuiS4oHUJxcxC13d6bjMRSicakychE.json"
-    if not os.getcwd().endswith("source-data"):
-        os.chdir(f"{os.getcwd()}/source-data")
+
     # Download the file from `url` and save it locally under `file_name`:
     with urllib.request.urlopen(GUARDIAN_DATASET_URI) as response, open(
-        f"{os.getcwd()}/guardian.json", "wb"
+        f"{SOURCE_DATA_PATH}/guardian.json", "wb"
     ) as out_file:
         shutil.copyfileobj(response, out_file)
 
 
 def save_data_to_file(results):
     """"Save calculated data to data.json"""
-    if not os.getcwd().endswith("source-data"):
-        os.chdir(f"{os.getcwd()}/source-data")
-    with open(f"{os.getcwd()}/../api/data.json", "w") as f:
+    with open(f"{API_PATH}/data.json", "w") as f:
         json.dump(results, f)
 
 
@@ -177,7 +175,9 @@ def main():
     logging.info("Starting processing...")
     observations = load_sa_data()
     latest_observation = observations[-1]
-    dt = datetime.datetime.strptime(f"{latest_observation['Date']} {latest_observation['Time']}", "%d/%m/%Y %H:%M")
+    dt = datetime.datetime.strptime(
+        f"{latest_observation['Date']} {latest_observation['Time']}", "%d/%m/%Y %H:%M"
+    )
     reported_at = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     results = parse_for_daily_data(observations)
     index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(results)

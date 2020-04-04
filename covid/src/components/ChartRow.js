@@ -3,10 +3,10 @@ import GrowthFactorChart from "./charts/GrowthFactorChart";
 import CumulativeCasesChart from "./charts/CumulativeCasesChart";
 import NewCasesChart from "./charts/NewCasesChart";
 
-function ChartRow({observations}) {
+function ChartRow({ observations }) {
   return (
     <div className="chart-container">
-    <NewCasesChart observations={observations} />
+      <NewCasesChart observations={observations} />
       <GrowthFactorChart observations={observations} />
       <CumulativeCasesChart observations={observations} />
     </div>
