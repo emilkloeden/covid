@@ -1,12 +1,20 @@
-version: '2'
+version: "3"
 services:
   ui:
+    container_name: "ui"
     build: ./covid
     ports:
-      - '80:80'
+      - "80:80"
     depends_on:
       - api
+    networks:
+      - webapp
   api:
+    container_name: "api"
     build: ./api
     ports:
-      - '3001:3001'
+      - "3001:3001"
+    networks:
+      - webapp
+networks:
+  webapp:
