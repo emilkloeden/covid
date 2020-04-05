@@ -13,7 +13,7 @@ function Footer() {
       <p>
         Calculations such as "Growth Factor" have been applied subsequently.
         Please report any issues on{" "}
-        <a href="https://github.com/emilkloeden/covid/issues">github</a>.
+        <a href="https://github.com/emilkloeden/covid/issues">Github</a>.
       </p>
     </footer>
   );

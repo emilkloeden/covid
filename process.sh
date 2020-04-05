@@ -3,11 +3,11 @@ echo "Closing any existing docker instances..."
 docker-compose down
 echo "Closed"
 echo "Updating data..."
-./source-data/mung.py
+./source-data/mung.py --update
 if [ $? -eq 0 ]
 then
     echo "Updated. running docker-compose up --build..."
-    docker-compose up -d --build
+    docker-compose up -d
     exit 1
 else
     echo "Failed to mung..."
