@@ -175,9 +175,15 @@ def main():
     logging.info("Starting processing...")
     observations = load_sa_data()
     latest_observation = observations[-1]
-    dt = datetime.datetime.strptime(
-        f"{latest_observation['Date']} {latest_observation['Time']}", "%d/%m/%Y %H:%M"
-    )
+    if "Time" in latest_observation and latest_observation["Time"].strip() != "":
+        dt = datetime.datetime.strptime(
+            f"{latest_observation['Date']} {latest_observation['Time']}",
+            "%d/%m/%Y %H:%M",
+        )
+    else:
+        dt = datetime.datetime.strptime(
+            f"{latest_observation['Date']} 00:00", "%d/%m/%Y %H:%M"
+        )
     reported_at = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     results = parse_for_daily_data(observations)
     index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(results)
