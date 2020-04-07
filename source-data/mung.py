@@ -40,7 +40,10 @@ def parse_for_daily_data(observations):
             days_since_previous_observation = delta.days
         else:
             days_since_previous_observation = 0
-        total_cases = int(observation["Cumulative case count"])
+        if observation["Cumulative case count"].strip():
+            total_cases = int(observation["Cumulative case count"])
+        else:
+            continue
 
         # Calculate new cases
         daily_cases = total_cases - cumulative_cases
@@ -174,7 +177,9 @@ def main():
     # Start processing
     logging.info("Starting processing...")
     observations = load_sa_data()
-    latest_observation = observations[-1]
+    valid_obs = [o for o in observations if "Cumulative case count" in o and o["Cumulative case count"].strip()]
+    latest_observation = valid_obs[-1]
+
     if "Time" in latest_observation and latest_observation["Time"].strip() != "":
         dt = datetime.datetime.strptime(
             f"{latest_observation['Date']} {latest_observation['Time']}",
@@ -185,7 +190,7 @@ def main():
             f"{latest_observation['Date']} 00:00", "%d/%m/%Y %H:%M"
         )
     reported_at = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-    results = parse_for_daily_data(observations)
+    results = parse_for_daily_data(valid_obs)
     index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(results)
     # results = add_additional_calculations_after_100_cases(
     #     results, index_of_first_day_above_100_cases

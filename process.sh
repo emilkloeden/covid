@@ -7,7 +7,7 @@ echo "Updating data..."
 if [ $? -eq 0 ]
 then
     echo "Updated. running docker-compose up --build..."
-    docker-compose up -d
+    docker-compose up --build -d
     exit 1
 else
     echo "Failed to mung..."
