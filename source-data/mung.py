@@ -6,14 +6,18 @@ import urllib.request
 import shutil
 import logging
 import datetime
+from pathlib import Path
 
-API_PATH = "/root/covid/api"
-SOURCE_DATA_PATH = "/root/covid/source-data"
+API_PATH = Path("/root/covid/api")
+SOURCE_DATA_PATH = Path("/root/covid/source-data")
+input_file_path = SOURCE_DATA_PATH / "guardian.json"
+output_file_path = API_PATH / "data.json"
 
 
 def load_sa_data():
     """Load data from source file return data for SA only."""
-    with open(f"{SOURCE_DATA_PATH}/guardian.json", "r") as f:
+    logging.debug(f"Input file path: {input_file_path}")
+    with open(input_file_path, "r") as f:
         data = json.load(f)
 
     updates = data["sheets"]["updates"]
@@ -146,39 +150,29 @@ def add_additional_calculations_after_100_cases(observations, index):
 def download_json_file():
     """Redownload source data"""
     GUARDIAN_DATASET_URI = "https://interactive.guim.co.uk/docsdata/1q5gdePANXci8enuiS4oHUJxcxC13d6bjMRSicakychE.json"
-
+    logging.debug(f"Input file path: {input_file_path}")
     # Download the file from `url` and save it locally under `file_name`:
     with urllib.request.urlopen(GUARDIAN_DATASET_URI) as response, open(
-        f"{SOURCE_DATA_PATH}/guardian.json", "wb"
+        input_file_path, "wb"
     ) as out_file:
         shutil.copyfileobj(response, out_file)
 
 
 def save_data_to_file(results):
     """"Save calculated data to data.json"""
-    with open(f"{API_PATH}/data.json", "w") as f:
+    logging.debug(f"Output file path: {output_file_path}")
+    with open(output_file_path, "w") as f:
         json.dump(results, f)
 
 
-def main():
-    # Configure logging
-    logging_level = logging.INFO
-    lower_case_args = [arg.lower() for arg in sys.argv]
-    if "--debug" in lower_case_args:
-        logging_level = logging.DEBUG
-    logging.basicConfig(level=logging_level)
+def remove_date_time_key(results):
+    for result in results:
+        del result["dateObj"]
+    return results
 
-    # Re-download data from source if requested
-    if "--update" in lower_case_args:
-        logging.info("Downloading data file...")
-        download_json_file()
-        logging.info("Downloaded.")
 
-    # Start processing
-    logging.info("Starting processing...")
-    observations = load_sa_data()
-    valid_obs = [o for o in observations if "Cumulative case count" in o and o["Cumulative case count"].strip()]
-    latest_observation = valid_obs[-1]
+def calculate_latest_reporting_date(observations):
+    latest_observation = observations[-1]
 
     if "Time" in latest_observation and latest_observation["Time"].strip() != "":
         dt = datetime.datetime.strptime(
@@ -189,22 +183,61 @@ def main():
         dt = datetime.datetime.strptime(
             f"{latest_observation['Date']} 00:00", "%d/%m/%Y %H:%M"
         )
-    reported_at = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-    results = parse_for_daily_data(valid_obs)
-    index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(results)
-    # results = add_additional_calculations_after_100_cases(
-    #     results, index_of_first_day_above_100_cases
-    # )
-    for result in results:
-        del result["dateObj"]
-    results = {
+    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def compose_final_object(results, reported_at):
+    return {
         "observations": results,
         "reportedAt": reported_at,
-        "firstDayAbove100Cases": results[index_of_first_day_above_100_cases]["date"],
+        #    "firstDayAbove100Cases": results[index_of_first_day_above_100_cases]["date"],
     }
-    # pprint(results)
-    save_data_to_file(results)
-    logging.debug(results)
+
+
+def main():
+    # Configure logging
+    logging_level = logging.INFO
+    lower_case_args = [arg.lower() for arg in sys.argv]
+    if "--debug" in lower_case_args:
+        logging_level = logging.DEBUG
+    logging.basicConfig(level=logging_level)
+
+    # Set paths based on input arguments
+    if "-if" in lower_case_args:
+        global input_file_path
+        arg_index = lower_case_args.index("-if")
+        file_path_index = lower_case_args[arg_index + 1]
+        input_file_path = file_path_index
+
+    if "-of" in lower_case_args:
+        global output_file_path
+        arg_index = lower_case_args.index("-of")
+        file_path_index = lower_case_args[arg_index + 1]
+        output_file_path = file_path_index
+
+    # Re-download data from source if requested
+    if "--update" in lower_case_args:
+        logging.info("Downloading data file...")
+        download_json_file()
+        logging.info("Downloaded.")
+
+    # Start processing
+    logging.info("Starting processing...")
+    observations = load_sa_data()
+    valid_observations = [
+        o
+        for o in observations
+        if "Cumulative case count" in o and o["Cumulative case count"].strip()
+    ]
+    reported_at = calculate_latest_reporting_date(valid_observations)
+    parsed_observations = parse_for_daily_data(valid_observations)
+    # index_of_first_day_above_100_cases = get_index_of_first_day_above_100_cases(parsed_observations)
+
+    results = remove_date_time_key(parsed_observations)
+    final_object = compose_final_object(results, reported_at)
+
+    save_data_to_file(final_object)
+    logging.debug(final_object)
     logging.info("Completed processing.")
 
 

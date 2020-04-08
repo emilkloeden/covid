@@ -6179,7 +6179,7 @@
                 "State": "TAS",
                 "Date": "05/04/2020",
                 "Time": "11:30",
-                "Cumulative case count": "82",
+                "Cumulative case count": "86",
                 "Cumulative deaths": "",
                 "Tests conducted (negative)": "",
                 "Tests conducted (total)": "",
@@ -6305,7 +6305,7 @@
                 "State": "TAS",
                 "Date": "06/04/2020",
                 "Time": "09:22",
-                "Cumulative case count": "86",
+                "Cumulative case count": "89",
                 "Cumulative deaths": "",
                 "Tests conducted (negative)": "",
                 "Tests conducted (total)": "",
@@ -6470,10 +6470,115 @@
                 "Notes": ""
             },
             {
-                "State": "TAS",
+                "State": "NSW",
                 "Date": "06/04/2020",
+                "Time": "20:00",
+                "Cumulative case count": "2686",
+                "Cumulative deaths": "21",
+                "Tests conducted (negative)": "123460",
+                "Tests conducted (total)": "126146",
+                "Intensive care (count)": "37",
+                "Hospitalisations (count)": "229",
+                "Ventilator usage (count)": "24",
+                "Recovered (cumulative)": "",
+                "Update Source": "media release",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "TAS",
+                "Date": "07/04/2020",
                 "Time": "",
-                "Cumulative case count": "89",
+                "Cumulative case count": "98",
+                "Cumulative deaths": "3",
+                "Tests conducted (negative)": "",
+                "Tests conducted (total)": "",
+                "Intensive care (count)": "",
+                "Hospitalisations (count)": "",
+                "Ventilator usage (count)": "",
+                "Recovered (cumulative)": "",
+                "Update Source": "media release",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "VIC",
+                "Date": "07/04/2020",
+                "Time": "08:40",
+                "Cumulative case count": "1191",
+                "Cumulative deaths": "11",
+                "Tests conducted (negative)": "",
+                "Tests conducted (total)": "58000",
+                "Intensive care (count)": "13",
+                "Hospitalisations (count)": "47",
+                "Ventilator usage (count)": "",
+                "Recovered (cumulative)": "686",
+                "Update Source": "media release",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "SA",
+                "Date": "07/04/2020",
+                "Time": "09:00",
+                "Cumulative case count": "",
+                "Cumulative deaths": "1",
+                "Tests conducted (negative)": "",
+                "Tests conducted (total)": "",
+                "Intensive care (count)": "",
+                "Hospitalisations (count)": "",
+                "Ventilator usage (count)": "",
+                "Recovered (cumulative)": "",
+                "Update Source": "media release",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "ACT",
+                "Date": "07/04/2020",
+                "Time": "13:54",
+                "Cumulative case count": "97",
+                "Cumulative deaths": "",
+                "Tests conducted (negative)": "5497",
+                "Tests conducted (total)": "",
+                "Intensive care (count)": "",
+                "Hospitalisations (count)": "6",
+                "Ventilator usage (count)": "",
+                "Recovered (cumulative)": "42",
+                "Update Source": "media release",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "QLD",
+                "Date": "07/04/2020",
+                "Time": "16:27",
+                "Cumulative case count": "934",
                 "Cumulative deaths": "",
                 "Tests conducted (negative)": "",
                 "Tests conducted (total)": "",
@@ -6491,18 +6596,39 @@
                 "Notes": ""
             },
             {
-                "State": "NSW",
-                "Date": "06/04/2020",
-                "Time": "",
-                "Cumulative case count": "2686",
-                "Cumulative deaths": "21",
-                "Tests conducted (negative)": "",
+                "State": "WA",
+                "Date": "07/04/2020",
+                "Time": "14:00",
+                "Cumulative case count": "470",
+                "Cumulative deaths": "6",
+                "Tests conducted (negative)": "18731",
                 "Tests conducted (total)": "",
                 "Intensive care (count)": "",
                 "Hospitalisations (count)": "",
                 "Ventilator usage (count)": "",
                 "Recovered (cumulative)": "",
-                "Update Source": "press conference",
+                "Update Source": "daily snapshot",
+                "Under 60": "",
+                "Over 60": "",
+                "Community": "",
+                "Community - no known source": "",
+                "Travel-related": "",
+                "Under investigation": "",
+                "Notes": ""
+            },
+            {
+                "State": "NSW",
+                "Date": "07/04/2020",
+                "Time": "20:00",
+                "Cumulative case count": "2734",
+                "Cumulative deaths": "",
+                "Tests conducted (negative)": "",
+                "Tests conducted (total)": "",
+                "Intensive care (count)": "36",
+                "Hospitalisations (count)": "227",
+                "Ventilator usage (count)": "22",
+                "Recovered (cumulative)": "",
+                "Update Source": "",
                 "Under 60": "",
                 "Over 60": "",
                 "Community": "",
@@ -6513,10 +6639,10 @@
             },
             {
                 "State": "VIC",
-                "Date": "07/04/2020",
-                "Time": "08:40",
-                "Cumulative case count": "1191",
-                "Cumulative deaths": "11",
+                "Date": "08/04/2020",
+                "Time": "09:00",
+                "Cumulative case count": "1212",
+                "Cumulative deaths": "12",
                 "Tests conducted (negative)": "",
                 "Tests conducted (total)": "",
                 "Intensive care (count)": "",
@@ -6524,27 +6650,6 @@
                 "Ventilator usage (count)": "",
                 "Recovered (cumulative)": "",
                 "Update Source": "press conference",
-                "Under 60": "",
-                "Over 60": "",
-                "Community": "",
-                "Community - no known source": "",
-                "Travel-related": "",
-                "Under investigation": "",
-                "Notes": ""
-            },
-            {
-                "State": "SA",
-                "Date": "07/04/2020",
-                "Time": "",
-                "Cumulative case count": "",
-                "Cumulative deaths": "1",
-                "Tests conducted (negative)": "",
-                "Tests conducted (total)": "",
-                "Intensive care (count)": "",
-                "Hospitalisations (count)": "",
-                "Ventilator usage (count)": "",
-                "Recovered (cumulative)": "",
-                "Update Source": "media release",
                 "Under 60": "",
                 "Over 60": "",
                 "Community": "",
@@ -6558,32 +6663,32 @@
             {
                 "State or territory": "NSW",
                 "Long name": "New South Wales",
-                "Confirmed cases (cumulative)": "2686",
+                "Confirmed cases (cumulative)": "2734",
                 "Deaths": "21",
-                "Tests conducted": "124038",
-                "Tests per million": "15279",
+                "Tests conducted": "126146",
+                "Tests per million": "15539",
                 "Percent positive": "2.2",
-                "Last updated": "2020-04-06"
+                "Last updated": "2020-04-07"
             },
             {
                 "State or territory": "VIC",
                 "Long name": "Victoria",
-                "Confirmed cases (cumulative)": "1191",
-                "Deaths": "11",
-                "Tests conducted": "57000",
-                "Tests per million": "8597",
+                "Confirmed cases (cumulative)": "1212",
+                "Deaths": "12",
+                "Tests conducted": "58000",
+                "Tests per million": "8748",
                 "Percent positive": "2.1",
-                "Last updated": "2020-04-07"
+                "Last updated": "2020-04-08"
             },
             {
                 "State or territory": "QLD",
                 "Long name": "Queensland",
-                "Confirmed cases (cumulative)": "921",
+                "Confirmed cases (cumulative)": "934",
                 "Deaths": "4",
                 "Tests conducted": "53000",
                 "Tests per million": "10361",
-                "Percent positive": "1.7",
-                "Last updated": "2020-04-06"
+                "Percent positive": "1.8",
+                "Last updated": "2020-04-07"
             },
             {
                 "State or territory": "SA",
@@ -6598,12 +6703,12 @@
             {
                 "State or territory": "ACT",
                 "Long name": "Australian Capital Territory",
-                "Confirmed cases (cumulative)": "96",
+                "Confirmed cases (cumulative)": "97",
                 "Deaths": "2",
                 "Tests conducted": "5018",
                 "Tests per million": "11722",
                 "Percent positive": "1.9",
-                "Last updated": "2020-04-06"
+                "Last updated": "2020-04-07"
             },
             {
                 "State or territory": "NT",
@@ -6618,1156 +6723,58 @@
             {
                 "State or territory": "TAS",
                 "Long name": "Tasmania",
-                "Confirmed cases (cumulative)": "89",
-                "Deaths": "2",
+                "Confirmed cases (cumulative)": "98",
+                "Deaths": "3",
                 "Tests conducted": "1779",
                 "Tests per million": "3322",
-                "Percent positive": "5.0",
-                "Last updated": "2020-04-06"
+                "Percent positive": "5.5",
+                "Last updated": "2020-04-07"
             },
             {
                 "State or territory": "WA",
                 "Long name": "Western Australia",
-                "Confirmed cases (cumulative)": "460",
-                "Deaths": "4",
+                "Confirmed cases (cumulative)": "470",
+                "Deaths": "6",
                 "Tests conducted": "18197",
                 "Tests per million": "6917",
-                "Percent positive": "2.5",
-                "Last updated": "2020-04-06"
+                "Percent positive": "2.6",
+                "Last updated": "2020-04-07"
             },
             {
                 "State or territory": "National",
                 "Long name": "National",
-                "Confirmed cases (cumulative)": "5881",
-                "Deaths": "45",
-                "Tests conducted": "289032",
-                "Tests per million": "11351",
+                "Confirmed cases (cumulative)": "5983",
+                "Deaths": "49",
+                "Tests conducted": "292140",
+                "Tests per million": "11473",
                 "Percent positive": "2.0",
-                "Last updated": "2020-04-07"
+                "Last updated": "2020-04-08"
             }
         ],
         "locations": [
             {
-                "State": "QLD",
-                "Location": "Cairns and Hinterland",
-                "Cases": "29",
-                "Date": "04/04/2020"
+                "state": "NSW",
+                "json_feed": "https://interactive.guim.co.uk/covidfeeds/nsw.json",
+                "areas": "LGA",
+                "notes": "scrape of LGA html page"
             },
             {
-                "State": "QLD",
-                "Location": "Central Queensland",
-                "Cases": "8",
-                "Date": "04/04/2020"
+                "state": "VIC",
+                "json_feed": "https://interactive.guim.co.uk/covidfeeds/victoria.json",
+                "areas": "LGA",
+                "notes": "scrape of power bi dashboard"
             },
             {
-                "State": "QLD",
-                "Location": "Central West",
-                "Cases": "0",
-                "Date": "04/04/2020"
+                "state": "QLD",
+                "json_feed": "https://interactive.guim.co.uk/covidfeeds/queensland.json",
+                "areas": "hospital and health areas",
+                "notes": "scrape of LGA html page"
             },
             {
-                "State": "QLD",
-                "Location": "Darling Downs",
-                "Cases": "41",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Gold Coast",
-                "Cases": "170",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Mackay",
-                "Cases": "12",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Metro North",
-                "Cases": "271",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Metro South",
-                "Cases": "206",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "North West",
-                "Cases": "0",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "South West",
-                "Cases": "0",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Sunshine Coast",
-                "Cases": "84",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Torres and Cape",
-                "Cases": "0",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Townsville",
-                "Cases": "22",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "West Moreton",
-                "Cases": "37",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Wide Bay",
-                "Cases": "20",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "QLD",
-                "Location": "Overseas",
-                "Cases": "0",
-                "Date": "04/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Armidale Regional\u200b",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Ballina",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Bellingen",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Blayney",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Broken Hill",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Cabonne",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Coonamble",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Cootamundra-Gundagai Regional",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Glen Innes Severn",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Greater Hume Shire",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Griffith",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Gunnedah",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Hay",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Hilltops",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Inverell",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Kempsey",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Lachlan",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Lithgow",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Liverpool Plains",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Murrumbidgee",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Muswellbrook",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Nambucca",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Narrandera",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Narromine",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Richmond Valley",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Singleton",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Tenterfield",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Upper Hunter Shire",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Upper Lachlan Shire",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Uralla",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Warren",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Warrumbungle Shire",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Weddin",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Wollondilly",
-                "Cases": "1-4",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Berrigan",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Dubbo Regional",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Dungog",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Kiama",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Lismore",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Mid-Western Regional",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Albury",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Snowy Monaro Regional",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Strathfield",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Yass Valley",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Burwood",
-                "Cases": "7",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Federation",
-                "Cases": "7",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Clarence Valley",
-                "Cases": "8",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Goulburn Mulwaree",
-                "Cases": "8",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Orange",
-                "Cases": "8",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Bathurst Regional",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Bega Valley",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Eurobodalla",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Queanbeyan-Palerang Regional",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Wagga Wagga",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Coffs Harbour",
-                "Cases": "11",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Tamworth Regional",
-                "Cases": "12",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Tweed",
-                "Cases": "12",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Byron",
-                "Cases": "13",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Canada Bay",
-                "Cases": "15",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Hunters Hill",
-                "Cases": "15",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Fairfield",
-                "Cases": "17",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Wingecarribee",
-                "Cases": "18",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Shellharbour",
-                "Cases": "20",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Willoughby",
-                "Cases": "21",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Blue Mountains",
-                "Cases": "22",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Hawkesbury",
-                "Cases": "23",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Cessnock",
-                "Cases": "24",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Campbelltown",
-                "Cases": "27",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Maitland",
-                "Cases": "27",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Port Macquarie-Hastings",
-                "Cases": "29",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Port Stephens",
-                "Cases": "29",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Shoalhaven",
-                "Cases": "29",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Camden",
-                "Cases": "31",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Lane Cove",
-                "Cases": "31",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Liverpool",
-                "Cases": "34",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Mid-Coast",
-                "Cases": "35",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Mosman",
-                "Cases": "35",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Lake Macquarie",
-                "Cases": "40",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Bayside",
-                "Cases": "41",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Parramatta",
-                "Cases": "42",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Georges River",
-                "Cases": "43",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Hornsby",
-                "Cases": "44",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "North Sydney",
-                "Cases": "44",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Newcastle",
-                "Cases": "46",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Wollongong",
-                "Cases": "50",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Penrith",
-                "Cases": "54",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "The Hills Shire",
-                "Cases": "54",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Cumberland",
-                "Cases": "56",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Ku-ring-gai",
-                "Cases": "58",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Ryde",
-                "Cases": "59",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Randwick",
-                "Cases": "65",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Inner West",
-                "Cases": "66",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Sutherland Shire",
-                "Cases": "77",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Canterbury-Bankstown",
-                "Cases": "81",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Woollahra",
-                "Cases": "85",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Blacktown",
-                "Cases": "90",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Central Coast",
-                "Cases": "100",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Sydney",
-                "Cases": "132",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Northern Beaches",
-                "Cases": "138",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "NSW",
-                "Location": "Waverley",
-                "Cases": "159",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Ararat (RC)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Ballarat (C)",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Banyule (C)",
-                "Cases": "64",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Bass Coast (S)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Baw Baw (S)",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Bayside (C)",
-                "Cases": "26",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Benalla (RC)",
-                "Cases": "3",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Boroondara (C)",
-                "Cases": "56",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Brimbank (C)",
-                "Cases": "26",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Campaspe (S)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Cardinia (S)",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Casey (C)",
-                "Cases": "37",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Central Goldfields (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Corangamite (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Darebin (C)",
-                "Cases": "27",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "East Gippsland (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Frankston (C)",
-                "Cases": "33",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Gannawarra (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Glen Eira (C)",
-                "Cases": "45",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Glenelg (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Golden Plains (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Greater Bendigo (C)",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Greater Dandenong (C)",
-                "Cases": "11",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Greater Geelong (C)",
-                "Cases": "54",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Greater Shepparton (C)",
-                "Cases": "8",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Hepburn (S)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Hobsons Bay (C)",
-                "Cases": "13",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Horsham (RC)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Hume (C)",
-                "Cases": "31",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Kingston (C)",
-                "Cases": "16",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Knox (C)",
-                "Cases": "12",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Latrobe (C)",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Loddon (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Macedon Ranges (S)",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Manningham (C)",
-                "Cases": "20",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Mansfield (S)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Maribyrnong (C)",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Maroondah (C)",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Melbourne (C)",
-                "Cases": "47",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Melton (C)",
-                "Cases": "18",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Mildura (RC)",
-                "Cases": "3",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Mitchell (S)",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Moira (S)",
-                "Cases": "10",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Monash (C)",
-                "Cases": "38",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Moonee Valley (C)",
-                "Cases": "30",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Moorabool (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Moreland (C)",
-                "Cases": "45",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Mornington Peninsula (S)",
-                "Cases": "52",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Mount Alexander (S)",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Moyne (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Murrindindi (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Nillumbik (S)",
-                "Cases": "18",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Northern Grampians (S)",
-                "Cases": "3",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Port Phillip (C)",
-                "Cases": "38",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "South Gippsland (S)",
-                "Cases": "3",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Southern Grampians (S)",
-                "Cases": "3",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Stonnington (C)",
-                "Cases": "84",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Strathbogie (S)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Surf Coast (S)",
-                "Cases": "9",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Swan Hill (RC)",
-                "Cases": "2",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Wangaratta (RC)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Warrnambool (C)",
-                "Cases": "5",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Wellington (S)",
-                "Cases": "6",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "West Wimmera (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Whitehorse (C)",
-                "Cases": "19",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Whittlesea (C)",
-                "Cases": "15",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Wodonga (RC)",
-                "Cases": "1",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Wyndham (C)",
-                "Cases": "28",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Yarra (C)",
-                "Cases": "21",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Yarra Ranges (S)",
-                "Cases": "19",
-                "Date": "03/04/2020"
-            },
-            {
-                "State": "VIC",
-                "Location": "Yarriambiack (S)",
-                "Cases": "1",
-                "Date": "03/04/2020"
+                "state": "WA",
+                "json_feed": "https://interactive.guim.co.uk/covidfeeds/wa.json",
+                "areas": "LGA",
+                "notes": "scrape of ArcGIS feature API"
             }
         ],
         "age distribution": [
