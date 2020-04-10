@@ -21,7 +21,7 @@ def load_sa_data():
         data = json.load(f)
 
     updates = data["sheets"]["updates"]
-    sa = [observation for observation in updates if observation["State"] == "SA"]
+    sa = [observation for observation in updates if observation["State"] == "SA" and observation["Update Source"] == "media release"]
 
     return sa
 
@@ -52,16 +52,10 @@ def parse_for_daily_data(observations):
         # Calculate new cases
         daily_cases = total_cases - cumulative_cases
 
-        # Calculate growth rate
-        growth_rate = calculate_growth_rate(
-            daily_cases, cases_yesterday, units=days_since_previous_observation
-        )
+        # Calculate growth factor
         growth_factor = calculate_growth_factor(
             daily_cases, cases_yesterday, units=days_since_previous_observation
         )
-
-        # Calculate doubling rate
-        doubling_rate = calculate_doubling_rate(growth_rate)
 
         # Update tracing variables
         cases_yesterday = daily_cases
@@ -74,9 +68,7 @@ def parse_for_daily_data(observations):
         data["daysSincePreviousObservation"] = days_since_previous_observation
         data["newCases"] = daily_cases
         data["cumulativeCases"] = total_cases
-        # data["growthRate"] = growth_rate
         data["growthFactor"] = growth_factor
-        # data["doublingRate"] = doubling_rate
         results.append(data)
 
         previous_observation = data
@@ -102,8 +94,9 @@ def calculate_growth_rate(present, past, units=1):
 
 
 def calculate_growth_factor(present, past, units=1):
-    if past == 0:
+    if past * units == 0:
         return None
+    logging.debug(f"Present: {present}, Past: {past}, Units: {units}")
     return present / (past * units)
 
 
