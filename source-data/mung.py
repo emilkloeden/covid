@@ -21,7 +21,7 @@ def load_sa_data():
         data = json.load(f)
 
     updates = data["sheets"]["updates"]
-    sa = [observation for observation in updates if observation["State"] == "SA" and observation["Update Source"] == "media release"]
+    sa = [observation for observation in updates if observation["State"] == "SA"]
 
     return sa
 
